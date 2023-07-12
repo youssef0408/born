@@ -1,0 +1,47 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    aptVSaptitude.txt                                  :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: yothmani <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2023/07/12 13:24:41 by yothmani          #+#    #+#              #
+#    Updated: 2023/07/12 13:28:10 by yothmani         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+APT (Advanced Package Tool) et Aptitude sont tous deux des outils de gestion de paquets
+utilisés dans les distributions Debian.
+
+APT :
+
+APT est le système de gestion de paquets de base utilisé par Debian et ses dérivés.
+Il fournit une interface en ligne de commande pour gérer les paquets logiciels, y
+compris l'installation, la mise à jour, la suppression et la résolution des
+dépendances.
+APT utilise des fichiers de configuration tels que sources.list pour spécifier les
+sources de paquets à utiliser.
+Il est relativement simple à utiliser et offre des commandes telles que apt-get et
+apt pour effectuer des opérations courantes de gestion des paquets.
+Aptitude :
+
+Aptitude est également un outil de gestion de paquets disponible dans Debian et ses
+dérivés.
+Il offre une interface en ligne de commande similaire à APT, mais avec des
+fonctionnalités supplémentaires.
+Aptitude est plus avancé et propose des fonctionnalités telles que la recherche de
+paquets, la résolution intelligente des dépendances, la gestion des paquets obsolètes
+et le suivi des paquets installés.
+Il utilise également une interface en mode texte pour la gestion des paquets, ce qui
+peut être utile sur des systèmes sans interface graphique.
+
+
+
+
+APT est le système de gestion de paquets de base utilisé dans Debian, tandis
+qu'Aptitude est un outil plus avancé qui offre des fonctionnalités supplémentaires
+pour la gestion des paquets. Si vous avez des besoins de gestion de paquets plus
+avancés, comme la résolution intelligente des dépendances, Aptitude peut être un
+choix plus approprié. Cependant, pour des opérations de base, APT est souvent
+suffisant et plus largement utilisé.
+

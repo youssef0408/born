@@ -1,0 +1,19 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    ApparmorVSselinux                                  :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: yothmani <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2023/07/12 13:35:54 by yothmani          #+#    #+#              #
+#    Updated: 2023/07/12 13:36:40 by yothmani         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+
+Bien que SELinux et AppArmor aient des approches différentes pour renforcer la sécurité
+leur objectif commun est de limiter les actions des processus et des utilisateurs afin 
+de réduire les risques de compromission du système. Les deux systèmes peuvent coexister
+sur un même système, mais généralement, les distributions Linux adoptent soit SELinux
+soit AppArmor comme solution de sécurité par défaut, en fonction de leurs choix et
+préférences.

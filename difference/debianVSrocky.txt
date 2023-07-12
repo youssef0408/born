@@ -1,0 +1,43 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    debianVSrocky.txt                                  :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: yothmani <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2023/07/12 13:20:23 by yothmani          #+#    #+#              #
+#    Updated: 2023/07/12 13:24:15 by yothmani         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+
+Origine et communauté :
+
+Debian : Debian est une distribution Linux indépendante et communautaire qui existe
+depuis plus de 25 ans. Elle est développée par une large communauté de bénévoles et 
+est réputée pour son engagement envers les principes du logiciel libre.
+Rocky Linux : Rocky Linux est une distribution Linux récemment créée en réponse aux
+changements apportés à CentOS, une distribution précédemment basée sur RHEL. Rocky
+Linux vise à fournir une alternative compatible avec RHEL, développée par la communauté.
+Stabilité et support à long terme :
+
+Debian : Debian est réputée pour sa stabilité et son support à long terme. Sa version
+Stable est adaptée aux déploiements de production qui nécessitent une grande fiabilité
+et une gestion des correctifs de sécurité.
+Rocky Linux : Comme Rocky Linux est basée sur RHEL, elle s'inscrit également dans une
+approche de stabilité et de support à long terme, avec une compatibilité RHEL.
+
+Stabilité : Debian est réputée pour sa stabilité et sa fiabilité. Si votre projet
+nécessite un système d'exploitation stable pour les machines virtuelles, Debian peut
+être un excellent choix.
+
+Large communauté et support : Debian bénéficie d'une vaste communauté d'utilisateurs
+et de contributeurs, ce qui signifie que vous pouvez trouver une aide et un support
+étendus en cas de besoin.
+Vaste sélection de logiciels : Debian propose une large gamme de logiciels disponibles
+dans ses dépôts officiels. Cela vous permet d'installer et de gérer facilement
+différentes applications sur vos machines virtuelles.
+
+Philosophie du logiciel libre : Si votre projet met l'accent sur l'utilisation de
+logiciels libres et open source, Debian est un choix cohérent en raison de son
+engagement envers cette philosophie.

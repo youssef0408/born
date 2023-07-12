@@ -1,0 +1,36 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    fonctionnement vm.txt                              :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: yothmani <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2023/07/12 13:43:27 by yothmani          #+#    #+#              #
+#    Updated: 2023/07/12 13:45:38 by yothmani         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+En résumé, une VM permet de créer et d'exécuter plusieurs systèmes d'exploitation et
+applications indépendamment sur un seul ordinateur physique, en utilisant un logiciel
+d'hyperviseur pour la gestion des ressources et l'isolation des machines virtuelles.
+Cela offre une flexibilité, une efficacité et une isolation accrues pour l'exécution
+de différents environnements informatiques sur une seule machine physique.
+
+
+Le fonctionnement général d'une VM est le suivant :
+
+Installation de l'hyperviseur : Vous devez installer l'hyperviseur sur un ordinateur
+physique. L'installation peut varier en fonction de l'hyperviseur choisi.
+
+Configuration des machines virtuelles : À l'aide de l'interface de gestion de
+l'hyperviseur, vous créez des machines virtuelles en spécifiant les paramètres tels
+que la quantité de mémoire, la taille du disque dur virtuel, les interfaces réseau,
+etc.
+
+Installation du système d'exploitation : Vous installez le système d'exploitation
+souhaité sur chaque machine virtuelle comme vous le feriez sur un ordinateur physique.
+
+Utilisation des machines virtuelles : Une fois les machines virtuelles créées et le
+système d'exploitation installé, vous pouvez les utiliser comme des ordinateurs
+autonomes. Vous pouvez exécuter des applications, naviguer sur Internet, installer
+des logiciels, etc.
