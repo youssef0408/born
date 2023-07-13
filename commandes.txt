@@ -1,0 +1,68 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    commandes.txt                                      :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: yothmani <yothmani@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2023/07/03 11:47:34 by yothmani          #+#    #+#              #
+#    Updated: 2023/07/10 13:48:28 by yothmani         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+
+
+
+*****************1- changement de hostname ***********************
+
+sudo hostnamectl set-hostname <nouveau_hostname>
+
+************************2-afficher le statutde hostname*******************************
+hostnamectl status
+
+*********************3- Modification des utilisateurs******************
+
+useradd : crée un nouvel utilisateur.
+
+usermod : modifie les paramètres de l’utilisateur :
+-l pour le login
+-c pour le nom entier
+-g pour les groupes par numéro d’identification de groupe.
+
+userdel -r : supprime l’utilisateur et tout ses fichiers.
+
+id -u : affiche le numéro d’identification de l’utilisateur.
+
+users : montre une liste de tous les utilisateurs connectés à l’instant.
+
+cat /etc/passwd | cut -d ":" -f 1 : affiche la liste de tous les utilisateurs sur la machine
+
+cat /etc/passwd | awk -F '{print $1}' : idem.
+
+**********************4-Manipulation des groupes*********************
+
+groupadd : crée un nouveau groupe.
+
+gpasswd -a : ajoute un utilisateur à un groupe.
+
+gpasswd -d : enlève un utilisateur d’un groupe.
+
+groupdel : supprime un groupe.
+
+groups : affiche les groupes dans lesquels se trouve un utilisateur.
+
+id -g : montre le numéro d’identification du groupe principal d’un utilisateur.
+
+getent group : affiche la liste des utilisateurs dans un groupe.
+
+*******************5- Wall************************
+wall "message"
+wall -n "message" : affichage sans bandeau
+
+*******************6- Le service Cron****************
+
+Cron (ou crontab, chrono table, qui signifie « table de planification ») est un programme qui
+permet d’exécuter des scripts, des commandes ou des logiciels automatiquement, à une date et heure
+ou un intervalle spécifié. Il est installé par défaut dans Debian (on peut vérifier avec la commande
+apt list cron). Il faut d’abord l’activer pour être certains qu’il se lance au démarrage :
+# systemctl enable cron

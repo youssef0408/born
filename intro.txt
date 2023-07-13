@@ -1,0 +1,117 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    intro.txt                                          :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: yothmani <yothmani@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2023/06/29 14:29:06 by yothmani          #+#    #+#              #
+#    Updated: 2023/07/10 13:53:57 by yothmani         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+1- C'EST QUOI UNE VM :
+
+Une machine virtuelle est un logiciel qui émule un ordinateur complet
+à l'intérieur d'un autre ordinateur physique.
+Elle permet d'exécuter plusieurs systèmes d'exploitation et
+applications sur un seul ordinateur physique,de manière isolée
+les uns des autres.
+La machine virtuelle utilise une couche logicielle appelée hyperviseur
+pour créer et gérer les machines virtuelles. L'hyperviseur alloue les
+ressources matérielles nécessaires à chaque machine virtuelle, telles
+que le processeur, la mémoire, le stockage et les périphériques 
+d'entrée/sortie.
+Les machines virtuelles sont souvent utilisées dans les centres de données
+et les environnements de virtualisation pour optimiser l'utilisation des
+ressources matérielles et simplifier la gestion des systèmes. Elles 
+permettent également de tester des logiciels dans des environnements
+isolés, de fournir des environnements de développement cohérents et de
+créer des sauvegardes complètes d'un système.
+En résumé, une machine virtuelle est une abstraction logicielle d'un
+ordinateur physique qui permet d'exécuter plusieurs systèmes
+d'exploitation et applications de manière isolée.
+
+2- LES AVANTAGES DE VM :
+
+* Faire tourner un système d’exploitation différent de celui de l’ordinateur
+physique sans devoir partitionner son disque dur ni le redémarrer.
+
+*Installer un ancien système d’exploitation comme DOS même si le matériel
+physique n’est pas compatible.
+
+*Transporter un système d’exploitation entier sur une clef USB, par exemple,
+ou d’un ordinateur à l’autre aisément.
+
+*Développer un programme destiné à un autre système d’exploitation et se servir
+de logiciels qui ne peuvent pas tourner sur le système d’exploitation de 
+la machine physique.
+
+*Isoler un programme de provenance douteuse ou même un virus pour l’étudier sans
+danger pour l’ordinateur physique. En effet, une machine virtuelle et ses disques
+durs virtuels peuvent facilement être gelés, redémarrés, copiés, transférés d’un
+ordinateur à l’autre, et supprimés. De plus, il est possible de faire une
+sauvegarde de l’état de la machine virtuelle pour la restaurer plus tard telle
+qu’elle était à ce moment-là.
+
+*Installer plusieurs machines virtuelles sur un nombre limité de postes physiques
+au lieu de devoir multiplier les ordinateurs en service. Cela économise en
+dépenses, en électricité et en temps de maintenance.
+
+3- les inconvénients d’une machine virtuelle
+
+*L’ordinateur hôte des machines virtuelles doit pouvoir supporter la virtualisation:
+une RAM trop réduite entraîne des problèmes de lenteur et de latence.
+
+*Si cet ordinateur hôte tombe en panne, les machines virtuelles risquent de ne plus être
+accessibles à moins d’avoir des copies sur une autre machine physique.
+
+*Un ordinateur physique est aussi plus vulnérable aux attaques s’il fait tourner plusieurs
+machines virtuelles plutôt qu’un seul système d’exploitation.
+
+4- Debian
+
+Débutée en 1993, Debian est la plus ancienne et robuste distribution de Linux.
+Développée et maintenue par une grande communauté, elle prend en charge une grande variété
+d’architectures et propose une grande sélection de paquets. Ce système est facile à mettre 
+à jour et son installation est minimale, ce qui économise les ressources d’un serveur et
+augmente sa sécurité. Debian est un système d’exploitation communément utilisé, que ce sortie
+pour des serveurs de réseau ou des ordinateurs personnels. Cependant, Debian n’est pas
+toujours simple à utiliser et nécessite l’interaction avec le terminal. De plus, Debian ne 
+ropose pas de version Entreprise.
+
+5- APT :
+
+Apt est un gestionnaire de paquets en ligne de commande, mais il se concentre principalement
+sur les opérations de base telles que l'installation, la mise à jour et la suppression des
+paquets. Il est plus simple et plus direct que aptitude. Apt est souvent préféré pour les
+commandes rapides et courantes, car il est plus concis et offre une expérience utilisateur
+simplifiée. Cependant, il ne propose pas certaines fonctionnalités avancées d'aptitude, comme
+la résolution des conflits de dépendances.
+
+6- APTITUDE :
+
+ Aptitude est un gestionnaire de paquets en ligne de commande et une interface en mode texte.
+Il offre une large gamme de fonctionnalités et est considéré comme une interface utilisateur
+plus avancée par rapport à apt. Aptitude permet de gérer les paquets en installant, mettant à
+jour, supprimant et recherchant des logiciels. Il résout également les dépendances entre les
+paquets et propose des solutions en cas de conflits. Aptitude a une approche plus interactive
+et offre des fonctionnalités telles que la visualisation des descriptions détaillées des
+paquets, la recherche de paquets, les actions automatiques, etc.
+
+7- difference entre APT et APTITUDE :
+
+En résumé,sont deux outils de gestion de paquets utilisés dans les systèmes d'exploitation
+basés sur Debian.
+aptitude est considéré comme une interface plus avancée et interactive pour la
+gestion des paquets, offrant une gamme plus étendue de fonctionnalités. D'un autre côté, apt
+est plus simple et direct, idéal pour les tâches de base de gestion des paquets.
+
+
+8- Le service Cron
+
+Cron (ou crontab, chrono table, qui signifie « table de planification ») est un programme qui
+permet d’exécuter des scripts, des commandes ou des logiciels automatiquement, à une date et heure
+ou un intervalle spécifié. Il est installé par défaut dans Debian (on peut vérifier avec la commande
+apt list cron). Il faut d’abord l’activer pour être certains qu’il se lance au démarrage :
+# systemctl enable cron
