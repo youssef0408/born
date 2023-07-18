@@ -6,7 +6,7 @@
 #    By: yothmani <yothmani@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/06/29 14:29:06 by yothmani          #+#    #+#              #
-#    Updated: 2023/07/10 13:53:57 by yothmani         ###   ########.fr        #
+#    Updated: 2023/07/14 15:19:49 by yothmani         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -115,3 +115,14 @@ permet d’exécuter des scripts, des commandes ou des logiciels automatiquement
 ou un intervalle spécifié. Il est installé par défaut dans Debian (on peut vérifier avec la commande
 apt list cron). Il faut d’abord l’activer pour être certains qu’il se lance au démarrage :
 # systemctl enable cron
+
+
+
+9 - LVM
+
+Logical Volume Managment  permet de partitionner des repartitins et gerer lespace dynamiquement.
+
+
+10- SSH
+
+Secured Shell, cest pour pouvoir se connecter un ordinateur a distance dune maniere securitaire

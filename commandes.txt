@@ -6,7 +6,7 @@
 #    By: yothmani <yothmani@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/07/03 11:47:34 by yothmani          #+#    #+#              #
-#    Updated: 2023/07/10 13:48:28 by yothmani         ###   ########.fr        #
+#    Updated: 2023/07/18 13:36:45 by yothmani         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -66,3 +66,11 @@ permet d’exécuter des scripts, des commandes ou des logiciels automatiquement
 ou un intervalle spécifié. Il est installé par défaut dans Debian (on peut vérifier avec la commande
 apt list cron). Il faut d’abord l’activer pour être certains qu’il se lance au démarrage :
 # systemctl enable cron
+
+
+********************7- politique mdp*******************
+
+cd /etc/security ---> nano pwquality.conf
+
+
+8- signature shasum    nom.vdiusera

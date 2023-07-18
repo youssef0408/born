@@ -6,12 +6,11 @@
 #    By: yothmani <yothmani@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/07/10 14:04:44 by yothmani          #+#    #+#              #
-#    Updated: 2023/07/10 14:04:56 by yothmani         ###   ########.fr        #
+#    Updated: 2023/07/18 15:09:25 by yothmani         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 
-wall -n "               Status
 
 Sudo            = sudo -l
 log             = cat /var/log/sudo/sudo.log
@@ -19,6 +18,8 @@ log             = cat /var/log/sudo/sudo.log
 AppArmor        = sudo aa-status | head -n 1
 
 SSH             = sudo systemctl status ssh
+
+UFW             = sudo systemctl status ufw
 
 UFW             = sudo ufw status
 
@@ -33,4 +34,8 @@ Fail2ban        = sudo systemctl status fail2ban
                 = sudo fail2ban-client status
                 = sudo fail2ban-client status sshd
                 = sudo tail -f /var/log/fail2ban.log
-"
+syst op         cat /etc/os-release 
+
+
+
+sudo est installé       dpkg --list | grep sudo
