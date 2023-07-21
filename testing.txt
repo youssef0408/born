@@ -6,7 +6,7 @@
 #    By: yothmani <yothmani@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/07/13 16:35:30 by yothmani          #+#    #+#              #
-#    Updated: 2023/07/18 11:30:55 by yothmani         ###   ########.fr        #
+#    Updated: 2023/07/21 11:16:25 by yothmani         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -46,10 +46,10 @@ SSH:    sudo service ssh status
 
 (from terminal)
         ssh student@localhost -p 4242
-        123qweQWE!@#
+        
 check root access..
 //
-groups cdumais (check cdumais's groups)
+groups yothmani (check yothmani's groups)
 
 sudo adduser [username]
 
